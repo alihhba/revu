@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family-roboto: "roboto";
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 900;
+}
+
+body,
+html {
+  font-family: var(--font-family-roboto);
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f5f5fa;
+}
